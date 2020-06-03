@@ -19,7 +19,7 @@ In sum, the available toolboxes in this package is `boost.python`, `cctbx main p
 
 # Installation and Requirements
 
-To install this package, download to the package to the destination directory and install [Python 3.7](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe). During the installation, you should choose add python to `PATH` environmental variable. Support for other python 3 versions will be added. Then run the `install.bat` file, then set the following environmental variables:
+To install this package, download to the package to the destination directory and install [Python 3.7](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe). During the installation, you should choose add python to `PATH` environmental variable. Support for other python 3 versions will be added. Set the following environmental variables:
 
     LIBTBX_BUILD = YOUR DESTINATION DIRECTORY/build
 	PYTHONPATH = %LIBTBX_BUILD%\..\modules\cctbx_project;%LIBTBX_BUILD%\..\modules;%LIBTBX_BUILD%\lib
